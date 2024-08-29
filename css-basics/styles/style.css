@@ -1,0 +1,34 @@
+/* ID selectors */
+#first {
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: cursive;
+    font-weight: 800;
+    padding: 5px;
+}
+
+#second {
+    font-family: monospace;
+    padding: 5px;
+}
+
+#third, #second>p {
+    font-family: cursive;
+    font-weight: 800;
+    padding: 5px;
+}
+
+/* Class selectors */
+.purple-hover:hover {
+    background-color: rgb(185, 235, 185);
+}
+
+.highlight {
+    background-color: rgb(233, 211, 211);
+}
+
+main {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}

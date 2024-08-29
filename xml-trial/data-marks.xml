@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <student1 id="12115007">
+        <name>Satyam Gupta</name>
+        <marks>98.09</marks>
+    </student1>
+
+    <student2 id="12115826">
+        <name>Abhay Sahani</name>
+        <marks>99.09</marks>
+    </student2>
+</result>
