@@ -1,4 +1,15 @@
-/* ID selectors */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+}
+
+
 #first {
     text-align: center;
     background-color: antiquewhite;
@@ -10,15 +21,19 @@
 #second {
     font-family: monospace;
     padding: 5px;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+    text-shadow: 1px 1px green;
 }
 
-#third, #second>p {
+#third,
+#second>p {
     font-family: cursive;
     font-weight: 800;
     padding: 5px;
 }
 
-/* Class selectors */
 .purple-hover:hover {
     background-color: rgb(185, 235, 185);
 }
@@ -31,4 +46,96 @@ main {
     border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
+}
+
+.navbar-main {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    z-index: 1;
+}
+
+.navbar-main-list {
+    padding: 0.2rem;
+    padding-top: 0.5rem;
+    text-align: end;
+    background-color: rgb(113, 6, 113);
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    height: 5rem;
+}
+
+.navbar-list-element {
+    display: inline;
+    margin: 1rem;
+}
+
+.navbar-list-element:hover {
+    color: black;
+    cursor:pointer;
+}
+
+.navbar-list-logo {
+    display: inline;
+}
+
+.navbar-list-head {
+    display: inline;
+    margin-right: 55rem;
+    font-size: 2rem;
+}
+
+.test-box {
+    padding: 1rem;
+    background-color: lightblue;
+    width: 93rem;
+    height: 102rem;
+    margin: 1.5rem 1.5rem 1rem 1rem;
+    align-items: center;
+}
+
+.box-red {
+    background-color: red;
+    width: 50rem;
+    height: 100rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    word-spacing: 0.3rem;
+    text-align: justify;
+}
+
+.box-violet {
+    background-color: violet;
+    width: 40rem;
+    height: 15rem;
+    position: relative;
+    left: 51rem;
+    bottom: 100rem;
+}
+
+.box-yellow {
+    background-color: yellow;
+    width: 40rem;
+    height: 34rem;
+    position: relative;
+    left: 51rem;
+    bottom: 99rem;
+}
+
+.footer-main {
+    background-color: rgb(113, 6, 113);
+    height: 10rem;
+    position: sticky;
+    z-index: 3;
+}
+
+.ai-assistant-main {
+    width: 3rem;
+    height: 3rem;
+    background-color: darkblue;
+    border-radius: 50%;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    z-index: 2;
 }

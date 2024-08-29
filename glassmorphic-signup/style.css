@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #e69477, #f4d5ca);
+    display: flex;
+}
+
+.inner-box {
+    width: 25rem;
+    height: 28rem;
+    background-color: #ffffffcc;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 1.17rem 1rem;
+    box-shadow: 0.3rem 0.3rem 0.7rem black;
+    z-index: 1;
+}
+
+.signup-header h1 {
+    font-size: 2.2rem;
+    color: #212121;
+    z-index: 3;
+}
+
+.signup-body {
+    margin: 0.2rem 0;
+    margin-top: 2rem;
+}
+
+.signup-body p {
+    margin: 1.17rem;
+}
+
+.signup-body form label {
+    display: block;
+    font-size: 1.17rem;
+    font-weight: 600;
+}
+
+.signup-body form input {
+    width: 100%;
+    height: 2rem;
+    border: 0.1rem solid #212121;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 0.3rem;
+    font-size: 1rem;
+}
+
+.signup-body form input[type="submit"] {
+    background-color: #e69477;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    display: flex;
+    height: 2.5rem;
+}
+
+.signup-body form input[type="submit"]:hover {
+    background: linear-gradient(60deg, #f85f6a, #ff9d8d, #ffb74d, #fc8d7c, #f85f6a);
+    cursor: pointer;
+}
+
+.signup-footer {
+    text-align: center;
+}
+
+.signup-footer a {
+    color: #ed825b;
+}
+
+.circle {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    background: linear-gradient(60deg, #fff, rgb(124, 180, 236), rgb(96, 101, 238), rgb(137, 92, 234), rgb(111, 177, 243));
+    border-color: white;
+    border-width: 0.2rem;
+    position: fixed;
+    z-index: 2;
+}
+
+.left {
+    bottom: 75vh;
+    left: 58vw;
+}
+
+.right {
+    bottom: 75vh;
+    left: 60vw;
+}
