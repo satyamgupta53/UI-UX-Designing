@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    height: 100vh;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+    background-color: rgb(247, 229, 251);
+    font-family: "SUSE", sans-serif;
+}
+
+.container h2 {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.accordian {
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.question h4 {
+    min-width: 30rem;
+}
+
+.question i {
+    margin-right: 2rem;
+    transition: transform 0.5s;
+}
+
+.question i:hover {
+    color: rgb(40, 144, 218);
+}
+
+.icon.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    font-size: 1.01rem;
+    margin-right: 2rem;
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s max-height;
+}
+
+/*
+ .answer.active {
+    max-height: fit-content;
+} 
+*/
